@@ -1,0 +1,7 @@
+.card-category{
+    border: solid 1px rgb(165, 135, 54);
+}
+
+.card-category:hover{
+    border: solid 3px red;
+}

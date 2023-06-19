@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');    
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: 5rem;
+    background-color: rgb(226, 163, 92);
+}
+
+.a-header{
+    color: white;
+    text-decoration: none;
+}
+
+.a-header:hover{
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.sectionone-img{
+    
+    width: 15rem;
+}
+
+.logo{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer{
+    background-color: rgb(226, 163, 92);
+    height: 7rem;
+}
+
+.div-card{
+    height: 30rem;
+    width: 50%;
+}
+
+.div-card2{ 
+    height: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.div-card2:hover{
+    width: 20rem;
+    height: 35rem;
+}
+
+.contacto:hover{
+    width: 2rem;
+}
+
+.index-card:hover{
+    border: solid rgb(194, 138, 101);
+}
+
+.title{
+    background-color: khaki;
+}
+
+.text-title{
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.section-one{
+    height: 45rem;
+}
+
+.section-three-texto{
+    font-weight: lighter;
+    font-size: xx-large;
+}
+
+.section-three-img{
+    height: 25rem;
+    width: 100%;
+}
+
+#texto-oculto {
+    display: inline;
+  }
+
+.descripcion{
+    font-size: xx-large;
+    font-weight: lighter;
+
+}
+
+
+@media only screen and (max-width:420px){
+    .text-title{
+        font-size: smaller;
+    }
+
+    .section-one{
+        height: 10rem;
+    }
+
+    .section-three-texto{
+        font-size: xx-small;
+        margin: 0 3px 0 3px;
+    }
+
+    .section-three-img{
+        height: 60%;
+        width: 100%;
+    }
+
+    h1{
+        font-size: x-small;
+    }
+
+    #texto-oculto {
+        display: none;
+      }
+
+      .descripcion{
+        font-size: xx-small;
+      }
+}
+
